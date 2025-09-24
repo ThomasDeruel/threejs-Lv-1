@@ -21,7 +21,6 @@ cube.add(label)
 scene.add(cube)
 camera.position.z = 2
 
-
 renderer.setAnimationLoop( animate );
 window.addEventListener('resize', resize);
 guiInit();
